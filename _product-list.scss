@@ -1,0 +1,70 @@
+.product-list-page {
+    .header {
+      position: relative;
+      nav {
+        ul {
+          .signup-btn {
+            background-color: #688f4e;
+            color: #fff;
+          }
+          .login-btn {
+            border: 1px solid #000;
+          }
+        }
+      }
+    }
+    .sidebar {
+      max-height: 1300px;
+      padding-top: 32px;
+      padding-left: 2%;
+      width: 22%;
+      background-color: #f4f1e9;
+      h2 {
+        margin-bottom: 42px;
+      }
+      .checkbox-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+  
+        color: #2b463c;
+        text-transform: capitalize;
+      }
+      .checkbox-group + .checkbox-group {
+        margin-top: 25px;
+      }
+      input {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #000;
+        background-color: transparent;
+      }
+    }
+    .content {
+      flex: 1;
+  
+      .more-btn {
+        width: fit-content;
+        background: #688f4e;
+        border-radius: 7.03125px;
+        margin: 50px auto 0;
+        padding: 20px 66px;
+        font-weight: 400;
+        font-size: 24px;
+        cursor: pointer;
+        line-height: 36px;
+        /* identical to box height */
+  
+        text-transform: capitalize;
+  
+        color: #ffffff;
+        margin-bottom: 431px;
+      }
+    }
+  }

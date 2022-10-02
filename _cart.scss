@@ -1,0 +1,125 @@
+.cart {
+  .back-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 85px;
+    p {
+      font-weight: 400;
+      font-size: 36px;
+
+      color: #2b463c;
+    }
+    i {
+      font-size: 21px;
+    }
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  &-item {
+    min-height: 172px;
+    padding: 16px 22px;
+    border: 1px solid #b1d182;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .amount {
+      width: 232px;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2 {
+        font-weight: 400;
+        font-size: 22.7023px;
+        max-width: 129px;
+        color: #2b463c;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+        margin-top: 24px;
+        color: #c4c4c4;
+      }
+    }
+    .price-wrap {
+      p {
+        font-weight: 400;
+        font-size: 23.9616px;
+        line-height: 36px;
+        text-transform: capitalize;
+        color: #2b463c;
+      }
+    }
+    img {
+      max-width: 106px;
+    }
+  }
+  .cart-wrap {
+    padding-bottom: 222px;
+  }
+  .summary {
+    background: rgba(177, 209, 130, 0.42);
+    border: 1px solid #b1d182;
+    border-radius: 19.968px;
+    max-height: 803px;
+    transform: translateY(-2%);
+    padding: 2% 10% 138px;
+    h2,
+    p {
+      font-weight: 400;
+      font-size: 35.9424px;
+      line-height: 54px;
+
+      color: #2b463c;
+    }
+    h2 {
+      margin-bottom: 90px;
+      text-align: center;
+    }
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: capitalize;
+    }
+    .info + .info {
+      margin-top: 35px;
+    }
+
+    .body {
+      padding-bottom: 72px;
+      border-bottom: 0.998399px solid #b1d182;
+    }
+    .footer {
+      padding: 0;
+      padding-top: 64px;
+      background-color: unset;
+    }
+
+    .checkout-btn {
+      text-align: center;
+      width: fit-content;
+      text-transform: capitalize;
+      background: #688f4e;
+      border-radius: 8.09352px;
+      font-weight: 400;
+      font-size: 18.4036px;
+      line-height: 22px;
+      /* identical to box height */
+      padding: 22px 70px;
+      color: #ffffff;
+      margin: 0 auto;
+      margin-top: 110px;
+    }
+  }
+}

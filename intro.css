@@ -16,3 +16,8 @@ a{
     box-shadow: 0px 0px 10px #ccc;
     flex-direction: column;
 }
+
+.row{
+    justify-content: center;
+    gap: 20px;
+}

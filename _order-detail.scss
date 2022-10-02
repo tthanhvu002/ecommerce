@@ -1,0 +1,101 @@
+.order-detail {
+  .detail {
+    display: flex;
+    margin-bottom: 196px;
+    gap: 20px;
+    padding: 40px 20px 40px 0;
+    background: #ffffff;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1);
+    img {
+      width: 280px;
+      height: 235px;
+    }
+
+    .info {
+      h2 {
+        margin-bottom: 8px;
+        max-width: 237px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+      span {
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #c4c4c4;
+      }
+
+      .id,
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+        margin-bottom: 20px;
+        color: #2b463c;
+      }
+      .price {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+        color: #2b463c;
+      }
+      .status {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #688f4e;
+      }
+    }
+  }
+  .payment-info {
+    background: #ffffff;
+    min-height: 562px;
+    margin-bottom: 242px;
+    border-radius: 5px;
+    padding: 20px 10%;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1);
+    h2 {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      /* identical to box height */
+        margin-bottom: 31px;
+      color: #000000;
+    }
+    p {
+      min-width: 137px;
+      font-weight: 400;
+      font-size: 18px;
+      margin-left: 30px;
+    }
+    .body{
+        padding-bottom: 54px;
+        border-bottom: 1px solid #B1D182;
+    }
+    .footer{
+        margin: 0;
+        padding: 0;
+        background-color:transparent;
+        padding-top: 30px;
+    }
+    .info-row + .info-row{
+        margin-top: 16px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.pass {
+  .form-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 20%;
+  }
+  .input-wrap + .input-wrap{
+    margin-top: 50px;
+  }
+  h2 {
+    letter-spacing: 0.2em;
+
+    color: #2b463c;
+    font-weight: 500;
+    font-size: 42.1765px;
+  }
+
+  .text {
+    margin-top: 5px;
+    text-align: center;
+    max-width: 636px;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    font-size: 16.402px;
+    color: rgba(27, 38, 44, 0.55);
+  }
+
+  .input-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 92px;
+    width: 100%;
+    justify-content: center;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+
+      color: #696f79;
+    }
+    input {
+      color: #918b8b;
+      font-size: 14px;
+      font-weight: 500;
+      width: 500px;
+      padding: 22px 30px;
+    }
+  }
+
+  .sign-btn {
+    margin-top: 84px;
+    margin-bottom: 130px;
+  }
+
+  .term-wrap {
+    font-weight: 400;
+    font-size: 14px;
+    
+    letter-spacing: 0.2em;
+
+    color: #1b262c;
+  }
+}

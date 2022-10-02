@@ -1,0 +1,66 @@
+.order-1 {
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 95px;
+    margin-bottom: 282px;
+  }
+  
+  .order-item {
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    width: 892px;
+    background: #ffffff;
+    border: 1px solid #b1d182;
+    .content {
+      display: flex;
+      align-items: center;
+      img {
+        width: 150px;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: 22.7023px;
+        line-height: 34px;
+        /* identical to box height */
+
+        color: #2b463c;
+      }
+      span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #c4c4c4;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #2b463c;
+      }
+      .price {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #2b463c;
+      }
+    }
+
+    .view-btn {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height */
+      text-transform: capitalize;
+      color: #688f4e;
+    }
+  }
+}
